@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".Add_contacts">
+
+    <SearchView
+        android:id="@+id/s2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:foregroundTint="@android:color/holo_orange_dark"
+        android:iconifiedByDefault="false"
+        android:visibility="visible">
+
+        <requestFocus />
+    </SearchView>
+
+    <ListView
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp" />
+
+</LinearLayout>
